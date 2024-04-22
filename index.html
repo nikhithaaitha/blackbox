@@ -1,0 +1,32 @@
+<html> <head> <style> body { background-color: #f5f5dc; font-family: Arial, sans-serif; }
+header, footer { background-color: #4CAF50; color: white; text-align: center; padding: 10px; }
+
+header a, footer a { color: white; text-decoration: none; }
+
+header a:hover, footer a:hover { color: #cccccc; }
+
+.container { max-width: 800px; margin: 0 auto; }
+
+.recipe { background-color: #ffffff; border: 1px solid #dddddd; padding: 20px; margin-bottom: 20px; }
+
+.recipe img { width: 100%; height: auto; }
+
+.recipe h2 { margin-top: 0; }
+
+.recipe p { margin-bottom: 0; }
+
+.form-container { background-color: #ffffff; border: 1px solid #dddddd; padding: 20px; }
+
+.form-header { text-align: center; margin-bottom: 20px; }
+
+.form-group { margin-bottom: 20px; }
+
+label { display: block; margin-bottom: 5px; }
+
+input[type="text"], textarea { width: 100%; padding: 10px; }
+
+button { background-color: #4CAF50; color: white; padding: 10px 20px; border: none; }
+
+button:hover { background-color: #45a049; } </style>
+
+</head> <body> <header> <div class="container"> <a href="/">Recipe Sharing Platform</a> </div> </header> <div class="container"> <h1>Explore Recipes from Different Cuisines</h1> <div class="recipes"> <div class="recipe"> <img src="https://example.com/italian-recipe.jpg" alt="Italian Recipe"> <h2>Italian Recipe</h2> <p>This is a delicious Italian recipe that you will love.</p> </div> <div class="recipe"> <img src="https://example.com/chinese-recipe.jpg" alt="Chinese Recipe"> <h2>Chinese Recipe</h2> <p>This is a mouth-watering Chinese recipe that you must try.</p> </div> <div class="recipe"> <img src="https://example.com/mexican-recipe.jpg" alt="Mexican Recipe"> <h2>Mexican Recipe</h2> <p>This is a spicy Mexican recipe that will tantalize your taste buds.</p> </div> </div> <h2>Share Your Recipe</h2> <div class="form-container"> <div class="form-header"> <h2>Add a New Recipe</h2> </div> <form> <div class="form-group"> <label for="name">Name:</label> <input type="text" id="name" name="name"> </div> <div class="form-group"> <label for="ingredients">Ingredients:</label> <textarea id="ingredients" name="ingredients"></textarea> </div> <div class="form-group"> <label for="instructions">Instructions:</label> <textarea id="instructions" name="instructions"></textarea> </div> <div class="form-group"> <label for="cuisine">Cuisine:</label> <select id="cuisine" name="cuisine"> <option value="italian">Italian</option> <option value="chinese">Chinese</option> <option value="mexican">Mexican</option> </select> </div> <button type="submit">Submit</button> </form> </div> </div> <footer> <div class="container"> &copy; 2023 Recipe Sharing Platform </div> </footer> </body> </html>
